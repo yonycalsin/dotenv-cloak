@@ -1,9 +1,9 @@
 {
   "name": "@dotenv-cloak/config",
   "version": "0.0.0",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/main.js",
+  "module": "./dist/main.mjs",
+  "types": "./dist/main.d.ts",
   "sideEffects": false,
   "license": "MIT",
   "files": [
