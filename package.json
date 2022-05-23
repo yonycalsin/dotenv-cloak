@@ -8,12 +8,18 @@
   "engines": {
     "node": "16.14.0"
   },
-  "scripts": {},
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint"
+  },
   "name": "dotenv-cloak",
   "author": "Yony Calsin",
-  "devDependencies": {},
-  "peerDependencies": {},
+  "private": true,
   "volta": {
     "node": "16.14.0"
+  },
+  "dependencies": {
+    "turbo": "^1.2.11"
   }
 }
