@@ -12,7 +12,7 @@
   "scripts": {
     "build": "tsup src/main.ts --format esm,cjs --dts",
     "dev": "tsup src/main.ts --format esm,cjs --watch --dts",
-    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+    "clean": "rm -rf .turbo && rm -rf dist"
   },
   "publishConfig": {
     "access": "public"

@@ -1,6 +1,13 @@
 {
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.rulers": [120],
+  "files.eol": "\n",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": false
+    "source.fixAll": true
   },
-  "editor.formatOnSave": true
+  "editor.detectIndentation": false,
+  "files.associations": {
+    "*.mdx": "markdown"
+  }
 }

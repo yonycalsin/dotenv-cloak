@@ -10,10 +10,14 @@
     "lint": "turbo run lint",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "changeset publish"
+    "release": "changeset publish",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.{js,json,ts,tsx,scss,css,md}\"",
+    "format": "pnpm run prettier --write",
+    "format-check": "pnpm run prettier --list-different",
+    "clean": "turbo run clean"
   },
-  "name": "dotenv-cloak",
   "author": "Yony Calsin",
+  "name": "dotenv-cloak",
   "private": true,
   "volta": {
     "node": "16.14.0"
@@ -22,5 +26,10 @@
     "@changesets/changelog-github": "0.4.4",
     "@changesets/cli": "^2.22.0",
     "turbo": "^1.2.11"
+  },
+  "devDependencies": {
+    "@yonycalsin/prettier-config-react-typescript": "1.0.1",
+    "prettier": "2.6.2",
+    "prettier-plugin-packagejson": "2.2.18"
   }
 }
