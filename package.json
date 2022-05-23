@@ -1,17 +1,16 @@
 {
   "version": "0.1.0",
   "license": "MIT",
-  "files": [
-    "dist",
-    "src"
-  ],
   "engines": {
     "node": "16.14.0"
   },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
-    "lint": "turbo run lint"
+    "lint": "turbo run lint",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "changeset publish"
   },
   "name": "dotenv-cloak",
   "author": "Yony Calsin",
@@ -20,6 +19,7 @@
     "node": "16.14.0"
   },
   "dependencies": {
+    "@changesets/cli": "^2.22.0",
     "turbo": "^1.2.11"
   }
 }

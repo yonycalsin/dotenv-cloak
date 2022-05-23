@@ -2,7 +2,7 @@
 
 `Dotenv Cloak` is a package that allows you to generate on file all environment variables without the value
 
-[![CI](https://github.com/yonycalsin/dotenv-cloak/actions/workflows/main.yml/badge.svg)](https://github.com/yonycalsin/dotenv-cloak/actions/workflows/main.yml)
+[![CI](https://github.com/yonycalsin/dotenv-cloak/actions/workflows/integration.yml/badge.svg)](https://github.com/yonycalsin/dotenv-cloak/actions/workflows/integration.yml)
 <a href="https://github.com/yonycalsin/dotenv-cloak"><img src="https://img.shields.io/spiget/stars/1000?color=brightgreen&label=Star&logo=github" /></a>
 <a href="https://www.npmjs.com/dotenv-cloak" target="_blank">
 <img src="https://img.shields.io/npm/v/dotenv-cloak" alt="NPM Version" /></a>
