@@ -1,0 +1,2 @@
+# Windows appends crlf, so this configuration will enforce lf.
+* text eol=lf
