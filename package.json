@@ -11,7 +11,7 @@
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "changeset publish",
-    "prettier": "prettier --ignore-path .gitignore \"**/*.{js,json,ts,tsx,scss,css,md}\"",
+    "prettier": "pnpm exec prettier --ignore-path .gitignore \"**/*.{js,json,ts,tsx,scss,css,md}\"",
     "format": "pnpm run prettier --write",
     "format-check": "pnpm run prettier --list-different",
     "clean": "turbo run clean"
