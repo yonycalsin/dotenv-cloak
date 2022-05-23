@@ -1,6 +1,6 @@
 {
   "name": "@dotenv-cloak/config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "./dist/main.js",
   "module": "./dist/main.mjs",
   "types": "./dist/main.d.ts",
@@ -20,5 +20,13 @@
   "devDependencies": {
     "tsup": "5.12.8",
     "typescript": "4.6.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonycalsin/dotenv-cloak.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yonycalsin/dotenv-cloak/issues"
+  },
+  "homepage": "https://github.com/yonycalsin/dotenv-cloak#readme"
 }
