@@ -1,2 +1,4 @@
 # Windows appends crlf, so this configuration will enforce lf.
 * text eol=lf
+pnpm-workspace.yaml text eol=lf
+.gitignore text eol=lf
