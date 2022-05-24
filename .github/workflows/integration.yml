@@ -1,6 +1,6 @@
 name: Integration
 
-on: [push]
+on: push
 
 jobs:
   static-test:

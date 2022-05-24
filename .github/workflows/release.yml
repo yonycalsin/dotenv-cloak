@@ -16,9 +16,9 @@ jobs:
     steps:
       - name: Check out code
         uses: actions/checkout@v3
-        with:
-          # This makes Actions fetch all Git history so that Changesets can generate changelogs with the correct commits
-          # fetch-depth: 0
+        # with:
+        # This makes Actions fetch all Git history so that Changesets can generate changelogs with the correct commits
+        # fetch-depth: 0
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2.1.0
