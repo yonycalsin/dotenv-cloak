@@ -1,5 +1,11 @@
 # @dotenv-cloak/parse
 
+## 2.0.0
+
+### Major Changes
+
+- [`a0f0ae4`](https://github.com/yonycalsin/dotenv-cloak/commit/a0f0ae4426ab5baad88b68ce15885c3bc778b9f9) Thanks [@yonycalsin](https://github.com/yonycalsin)! - feat: parser from plain to ast
+
 ## 1.0.0
 
 ### Major Changes
