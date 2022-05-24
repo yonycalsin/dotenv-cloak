@@ -1,6 +1,6 @@
 {
   "name": "@dotenv-cloak/stringify",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "main": "./dist/main.js",
   "module": "./dist/main.mjs",
   "types": "./dist/main.d.ts",
@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/yonycalsin/dotenv-cloak/issues"
   },
-  "homepage": "https://github.com/yonycalsin/dotenv-cloak#readme"
+  "homepage": "https://github.com/yonycalsin/dotenv-cloak#readme",
+  "dependencies": {
+    "@dotenv-cloak/parse": "workspace:2.0.0"
+  }
 }
