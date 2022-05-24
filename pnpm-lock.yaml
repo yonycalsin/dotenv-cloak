@@ -21,9 +21,11 @@ importers:
 
   packages/config:
     specifiers:
+      '@dotenv-cloak/tsconfig': workspace:0.0.0
       tsup: 5.12.8
       typescript: 4.6.4
     devDependencies:
+      '@dotenv-cloak/tsconfig': link:../tsconfig
       tsup: 5.12.8_typescript@4.6.4
       typescript: 4.6.4
 
@@ -37,17 +39,21 @@ importers:
 
   packages/parse:
     specifiers:
+      '@dotenv-cloak/tsconfig': workspace:0.0.0
       tsup: 5.12.8
       typescript: 4.6.4
     devDependencies:
+      '@dotenv-cloak/tsconfig': link:../tsconfig
       tsup: 5.12.8_typescript@4.6.4
       typescript: 4.6.4
 
   packages/stringify:
     specifiers:
+      '@dotenv-cloak/tsconfig': workspace:0.0.0
       tsup: 5.12.8
       typescript: 4.6.4
     devDependencies:
+      '@dotenv-cloak/tsconfig': link:../tsconfig
       tsup: 5.12.8_typescript@4.6.4
       typescript: 4.6.4
 
