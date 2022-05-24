@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/yonycalsin/dotenv-cloak/issues"
   },
-  "homepage": "https://github.com/yonycalsin/dotenv-cloak#readme"
+  "homepage": "https://github.com/yonycalsin/dotenv-cloak#readme",
+  "dependencies": {
+    "@dotenv-cloak/parse": "workspace:2.0.0"
+  }
 }
