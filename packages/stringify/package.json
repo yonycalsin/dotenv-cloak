@@ -1,6 +1,6 @@
 {
   "name": "@dotenv-cloak/stringify",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "main": "./dist/main.js",
   "module": "./dist/main.mjs",
   "types": "./dist/main.d.ts",
