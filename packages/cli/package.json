@@ -1,6 +1,6 @@
 {
   "name": "@dotenv-cloak/cli",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "./dist/bin.js",
   "module": "./dist/bin.mjs",
   "types": "./dist/bin.d.ts",
