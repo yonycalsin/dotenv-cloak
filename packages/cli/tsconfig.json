@@ -1,0 +1,4 @@
+{
+  "extends": "@dotenv-cloak/tsconfig/node.json",
+  "include": ["."]
+}

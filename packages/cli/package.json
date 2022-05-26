@@ -1,0 +1,41 @@
+{
+  "name": "@dotenv-cloak/cli",
+  "version": "1.0.0",
+  "main": "./dist/bin.js",
+  "module": "./dist/bin.mjs",
+  "types": "./dist/bin.d.ts",
+  "sideEffects": false,
+  "license": "MIT",
+  "files": [
+    "dist/**"
+  ],
+  "bin": {
+    "cloak": "./dist/bin.js",
+    "dotenv-cloak": "./dist/bin.js"
+  },
+  "scripts": {
+    "build": "tsup src/bin.ts --format esm,cjs --dts",
+    "dev": "tsup src/bin.ts --format esm,cjs --watch --dts",
+    "clean": "rm -rf .turbo && rm -rf dist"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonycalsin/dotenv-cloak.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yonycalsin/dotenv-cloak/issues"
+  },
+  "homepage": "https://github.com/yonycalsin/dotenv-cloak#readme",
+  "devDependencies": {
+    "@dotenv-cloak/tsconfig": "workspace:*",
+    "@types/node": "17.0.35",
+    "tsup": "5.12.8",
+    "typescript": "4.6.4"
+  },
+  "dependencies": {
+    "@dotenv-cloak/core": "workspace:*"
+  }
+}
