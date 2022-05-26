@@ -31,6 +31,7 @@
   "homepage": "https://github.com/yonycalsin/dotenv-cloak#readme",
   "devDependencies": {
     "@dotenv-cloak/tsconfig": "workspace:*",
+    "@types/node": "17.0.35",
     "tsup": "5.12.8",
     "typescript": "4.6.4"
   },

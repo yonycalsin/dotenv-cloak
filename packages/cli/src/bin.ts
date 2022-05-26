@@ -2,7 +2,9 @@
 import { cloak } from '@dotenv-cloak/core'
 
 async function cli() {
-  cloak()
+  await cloak()
+
+  console.info('[@dotenv-cloak/cli] Done!')
 }
 
 cli()
