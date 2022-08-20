@@ -44,7 +44,14 @@ DB_USER=root
 to generate is very easy !
 
 ```bash
+# Using npm
 npx cloak
+
+# Using yarn
+yarn cloak
+
+# Using pnpm
+pnpm exec cloak
 ```
 
 The processed file will be generated `.env.example`
