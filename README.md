@@ -28,7 +28,7 @@ yarn add @dotenv-cloak/cli
 pnpm add @dotenv-cloak/cli
 ```
 
-## 🌎 Usage
+## Usage
 
 ```bash
 # Application
